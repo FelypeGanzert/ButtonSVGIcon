@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="303.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Case2Controller">
+   <children>
+      <TableView fx:id="tablePersons" layoutY="1.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="columnName" prefWidth="146.0" text="Nome" />
+          <TableColumn fx:id="columnEmail" prefWidth="154.0" text="Email" />
+            <TableColumn fx:id="columnEdit" minWidth="0.0" prefWidth="53.0" />
+            <TableColumn fx:id="columnDelete" prefWidth="36.0" />
+        </columns>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</AnchorPane>
